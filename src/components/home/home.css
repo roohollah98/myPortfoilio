@@ -1,0 +1,83 @@
+/*=============== HOME ===============*/
+.home__container{
+    row-gap: 4rem;
+    padding-top: 2rem;
+  }
+  .home__data{
+    row-gap: 1.5rem;
+  }
+  
+  .home__title{
+  text-align: center;
+  font-size: var(--biggest-font-size);
+  letter-spacing: 0.3px;
+  margin-bottom: 0.5rem;
+  }
+  
+  .home__blob{
+  
+    position: relative;
+    width: 200px;
+    height: 320px;
+    background-color: var(--body-color);
+    border: 2px solid var(--text-color-light);
+    justify-self: center;
+    border-radius: 6.25rem;
+    place-items:center;
+  
+  }
+  
+  .home__perfil{
+  width: 160px;
+  height: 285px;
+  background: var(--gradient-color);
+  border-radius: 5.5rem;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-end;
+  
+  }
+  .home__perfil img{
+    width: 160px;
+  }
+  
+  .home__social{
+  justify-self: center;
+  display: flex;
+  grid-gap: 1.25rem;
+  }
+  .social__link{
+    font-size: 1.25rem;
+    color: var(--text-color-light);
+    transition: color 0.3s;
+  }
+  .social__link:hover{
+    color: var(--title-color);
+  }
+  
+  .home__info{
+    display: grid;
+    row-gap: 2rem;
+  }
+  .home__info_title{
+    font-family: var(--body-font);
+    font-size: var(--smaller-font-size);
+    font-weight: 400;
+    color: var(--text-color-light);
+    margin-bottom: 1rem;
+  
+  }
+  .home__info_description,.home__info_number{
+  
+  font-family: var(--title-font);
+  color: var(--title-color);
+  }
+  .home__info_description{
+    padding-right: 4rem;
+  }
+  .home__info_number{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+  }
+  

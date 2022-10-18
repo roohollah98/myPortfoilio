@@ -1,0 +1,40 @@
+.projects__container{
+    overflow: initial;
+  }
+  .projects__content{
+    display: grid;
+    justify-content: center;
+  }
+  .projects__image{
+    width: 250px;
+    border-radius: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .projects__subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+  }
+  .projects__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: 1.25rem;
+    margin: 0.5rem 0 1.25rem;
+  }
+  
+  .projects__button{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+  
+  
+  }
+  
+  .projects__button svg{
+    font-size: 1rem;
+    transition: transform 0.3s;
+  }
+  .projects__button:hover svg{
+    transform: translateX(0.25rem);
+  }
+  
