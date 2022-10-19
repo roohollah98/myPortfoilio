@@ -1,5 +1,6 @@
 .projects__container{
     overflow: initial;
+    padding: 1rem;
   }
   .projects__content{
     display: grid;
