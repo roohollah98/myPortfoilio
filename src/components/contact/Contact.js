@@ -4,7 +4,7 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import SendIcon from "@mui/icons-material/Send";
 import CallMadeIcon from "@mui/icons-material/CallMade";
 import EmailIcon from "@mui/icons-material/Email";
-import './contact.css'
+import "./contact.css";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
@@ -15,7 +15,6 @@ const Contact = () => {
 
   const contactMessage = document.getElementById("contact-message");
   const sendEmail = (e) => {
-   
     e.preventDefault();
     if (name === "" || email === "" || message === "") {
       contactMessage.classList.add("color__red");
@@ -59,7 +58,9 @@ const Contact = () => {
           <div className="contact__info">
             <div className="contact__data">
               <span className="contact__data-title">Email</span>
-              <span className="contact__data-info">roohollaheftekhari1998</span>
+              <span className="contact__data-info">
+                roohollaheftekhari1998@gmail.com
+              </span>
             </div>
             <div className="contact__data">
               <span className="contact__data-title">whats app</span>
