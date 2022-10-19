@@ -3,6 +3,9 @@ import './skills.css'
 import logoHtml from "../../assets/img/html-1.svg";
 import logoJavascript from "../../assets/img/logo-javascript.svg";
 import logoGit from "../../assets/img/git-icon.svg";
+import logoGraphql  from "../../assets/img/graphql-logo-2.svg";
+import logoBootstrap  from "../../assets/img/bootstrap-4.svg";
+
 import logoReact from "../../assets/img/react-2.svg";
 import logoCss from "../../assets/img/css-3.svg";
 import logoXD from "../../assets/img/adobe-xd-1.svg";
@@ -59,6 +62,21 @@ const Skills = () => {
                 <img src={logoGit} alt="Git logo" />
               </div>
               <h3 className="skills__name">Git</h3>
+              <span className="skills__subtitle">Intermediate</span>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__blob">
+                <img src={logoGraphql} alt="GraphQl logo" />
+              </div>
+              <h3 className="skills__name">GraphQL</h3>
+              <span className="skills__subtitle">Intermediate</span>
+            </div>
+            <div className="skills__data">
+              <div className="skills__blob">
+                <img src={logoBootstrap} alt="bootstrap logo" />
+              </div>
+              <h3 className="skills__name">Bootstrap</h3>
               <span className="skills__subtitle">Intermediate</span>
             </div>
           </div>

@@ -12,10 +12,11 @@ import "swiper/css/scrollbar";
 
 //import projects image
 
-import project1 from "../../assets/img/iranblog.png";
-import project2 from "../../assets/img/crypton.png";
-import project3 from "../../assets/img/project3.jpg";
-import project4 from "../../assets/img/project4.jpg";
+import project1 from "../../assets/img/blog.jpg";
+import project2 from "../../assets/img/crypto.jpg";
+import project3 from "../../assets/img/shop.jpg";
+import project4 from "../../assets/img/netflix.jpg";
+import project5 from "../../assets/img/facedetection.jpg";
 
 const Projects = () => {
   return (
@@ -42,7 +43,7 @@ const Projects = () => {
 
             <div>
               <span className="projects__subtitle">web</span>
-              <h1 className="projects__title">Modern Blog Website</h1>
+              <h1 className="projects__title">Modern Blog App</h1>
               <a
                 target="_blank"
                 href="https://magnificent-florentine-1949e4.netlify.app/"
@@ -69,8 +70,11 @@ const Projects = () => {
             <img className=" projects__img" src={project3} alt="project 3" />
             <div>
               <span className="projects__subtitle">web</span>
-              <h1 className="projects__title">Modern Website</h1>
-              <a href="#" className="projects__button">
+              <h1 className="projects__title">shopping website</h1>
+              <a
+                href="https://myshopzzz.netlify.app/"
+                className="projects__button"
+              >
                 View demo <ArrowRightAltIcon />
               </a>
             </div>
@@ -79,8 +83,24 @@ const Projects = () => {
             <img className="projects__img" src={project4} alt="project 4" />
             <div>
               <span className="projects__subtitle">web</span>
-              <h1 className="projects__title">Modern Website</h1>
-              <a href="#" className="projects__button">
+              <h1 className="projects__title">Netflix Clone</h1>
+              <a
+                href="https://mynetflixx.netlify.app/"
+                className="projects__button"
+              >
+                View demo <ArrowRightAltIcon />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="projects_content swiper__slide">
+            <img className="projects__img" src={project5} alt="project 5" />
+            <div>
+              <span className="projects__subtitle">Web</span>
+              <h1 className="projects__title">Face Detector</h1>
+              <a
+                href="https://facedetector123.netlify.app/"
+                className="projects__button"
+              >
                 View demo <ArrowRightAltIcon />
               </a>
             </div>
