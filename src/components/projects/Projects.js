@@ -59,6 +59,7 @@ const Projects = () => {
               <span className="projects__subtitle">web</span>
               <h1 className="projects__title">Crypto Currency App</h1>
               <a
+              target="_blank"
                 href="https://rococo-nasturtium-fed5e8.netlify.app/"
                 className="projects__button"
               >
@@ -72,6 +73,7 @@ const Projects = () => {
               <span className="projects__subtitle">web</span>
               <h1 className="projects__title">shopping website</h1>
               <a
+                target="_blank"
                 href="https://myshopzzz.netlify.app/"
                 className="projects__button"
               >
@@ -85,6 +87,7 @@ const Projects = () => {
               <span className="projects__subtitle">web</span>
               <h1 className="projects__title">Netflix Clone</h1>
               <a
+              target="_blank"
                 href="https://mynetflixx.netlify.app/"
                 className="projects__button"
               >
@@ -98,6 +101,7 @@ const Projects = () => {
               <span className="projects__subtitle">Web</span>
               <h1 className="projects__title">Face Detector</h1>
               <a
+              target="_blank"
                 href="https://facedetector123.netlify.app/"
                 className="projects__button"
               >
